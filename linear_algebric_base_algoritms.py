@@ -1,7 +1,5 @@
 class Linear_Bsk_Operations:
 	def __init__(self):
-		self.n = 0
-		self.m = 0
 		self.arr_matrix = []
 
 	def add_matrix(self, n:int, m:int):
@@ -34,14 +32,11 @@ class Linear_Bsk_Operations:
 				h.append(matr[i][c])
 				c += 1
 			self.main.append(h)
-		print(self.main)
+		print(self.	main)
 
 	def my_matrix(self):
 		for matrix in self.arr_matrix:
 			self.show(matrix)
-
-	def mul_matrix(self):
-		print('Введите новую матрицу')
 		
 
 
